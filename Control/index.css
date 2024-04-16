@@ -524,13 +524,12 @@ header {
 
 .section-box-4 {
     /*border: 2px solid gray;*/
-    margin-top: 152px;
+    margin-top: 264px;
     margin-left: 147px;
     width: 1146px;
     height: 730px;
     flex-shrink: 0;
     display: flex;
-
     flex-direction: column;
 }
 
@@ -637,7 +636,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: 130%; /* 31.2px */
-    margin-top: 79px;
+    margin-top: 55px;
 }
 
 .footer-text-2 {
@@ -664,13 +663,20 @@ footer {
     line-height: 150%; /* 27px */
     margin-top: 30px;
 }
-.svg-6{
+
+.svg-6 {
     margin-left: 87px;
+    margin-bottom: -2px;
+
 }
-.svg-7{
+
+.svg-7 {
     margin-left: 147px;
+    margin-bottom: -5px;
+
 }
-.footer-text-4{
+
+.footer-text-4 {
     color: #FFF;
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
@@ -679,7 +685,8 @@ footer {
     line-height: 150%; /* 36px */
 
 }
-.footer-text-5{
+
+.footer-text-5 {
     color: #FFF;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
@@ -689,28 +696,31 @@ footer {
     margin-top: 20px;
 
 }
-.footer-box-2{
+
+.footer-box-2 {
     width: 165px;
     height: 177px;
     flex-shrink: 0;
     margin-left: 43px;
-    margin-top: 105px;
+    margin-top: 77px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
 }
-.footer-box-3{
+
+.footer-box-3 {
     width: 165px;
     height: 177px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    margin-top: 105px;
+    margin-top: 75px;
     margin-left: 128px;
     /*border: 2px solid gray;*/
 }
-.footer-text-6{
+
+.footer-text-6 {
     color: #FFF;
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
@@ -718,7 +728,8 @@ footer {
     font-weight: 400;
     line-height: 150%; /* 36px */
 }
-.footer-text-7{
+
+.footer-text-7 {
     color: #FFF;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
@@ -727,24 +738,27 @@ footer {
     line-height: 150%; /* 27px */
     margin-top: 20px;
 }
-.footer-text-8{
+
+.footer-text-8 {
     color: #FFF;
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 36px */
-    margin-top: 105px;
+    margin-top: 77px;
     margin-left: 129px;
 }
-.svg-8{
+
+.svg-8 {
     width: 244px;
     height: 38px;
     flex-shrink: 0;
     margin-top: 46px;
     margin-left: 120px;
 }
-.footer-text-9{
+
+.footer-text-9 {
     color: #FFF;
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -752,12 +766,17 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
-    margin-top: 330px;
-    margin-right: 1448px;
+    margin-top: 15px;
 }
-.footer-box-4{
+
+.footer-box-4 {
+    flex-shrink: 0;
+    /*border: 2px solid gray;*/
     width: 1440px;
     height: 94px;
-    flex-shrink: 0;
-    border: 2px solid gray;
+    margin-left: -1265px;
+    margin-top: 315px;
+    display: flex;
+    justify-content: center;
+
 }
