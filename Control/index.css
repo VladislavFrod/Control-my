@@ -5,16 +5,16 @@
 }
 
 header {
-    width: 100vw;
-    height: 71.191vh;
+    width: 100%;
+    height: 729px;
     /*background-color: black;*/
-    margin-bottom: 240px;
+    /*margin-bottom: 240px;*/
 
 }
 
 .img-header {
-    width: 100vw;
-    height: 71.191vh;
+    width: 100%;
+    height: 729px;
     position: absolute;
     top: 0;
     left: 0;
@@ -33,9 +33,9 @@ header {
     align-items: center;
 }
 
-svg {
+.svg-1 {
     position: relative;
-    bottom: -20px;
+   bottom: -20px;
 }
 
 .header-text-1 {
@@ -159,7 +159,7 @@ svg {
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
-    margin-top: 420px;
+    margin-top: 140px;
     margin-left: 147px;
     margin-right: 147px;
 }
@@ -406,4 +406,194 @@ svg {
     font-weight: 400;
     line-height: 150%; /* 27px */
     margin-top: 75px;
+}
+
+
+
+.section-box-3{
+    margin-top: 143px;
+    display: flex;
+    flex-direction: column;
+}
+.section-box-3-img-1{
+    width: 1440px;
+    height: 650px;
+    position: absolute;
+    z-index: -1;
+
+}
+.section-box-3-2{
+    width: 619px;
+    height: 450px;
+    margin-left: 412px;
+    margin-top: 112px;
+    /*border: 2px solid gray;*/
+    display: flex;
+
+    flex-direction: column;
+}
+.section-3-2-text-1{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+}
+.section-3-2-text-2{
+    color: #FFF;
+    text-align: center;
+
+    /* Subtitle / Base */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+    margin-top: 65px;
+}
+.section-3-2-text-3{
+    color: #FFF;
+    text-align: center;
+
+    /* Subheading / Base */
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    margin-top: 60px;
+}
+.section-3-2-text-4{
+    color: #FFF;
+    text-align: center;
+
+    /* Subheading / Base */
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    margin-top: 25px;
+}
+.svg-2{
+    margin-bottom: -2px;
+    margin-right: 15px;
+}
+.svg-3{
+    margin-bottom: -1px;
+    margin-right: 15px;
+}
+.section-box-3-2-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.svg-4{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.svg-5{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: 40px;
+}
+
+
+
+.section-box-4{
+    /*border: 2px solid gray;*/
+    margin-top: 152px;
+    margin-left: 147px;
+    width: 1146px;
+    height: 730px;
+    flex-shrink: 0;
+    display: flex;
+
+    flex-direction: column;
+}
+.section-4-1-text-1{
+    color: #000;
+    text-align: center;
+
+    /* Subtitle / Base */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+}
+.section-4-1-text-2{
+    color: #000;
+    text-align: center;
+
+    /* Body / Base */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    width: 609px;
+    margin-top: 20px;
+    margin-left: 268px;
+}
+.section-box-4-2{
+    display: flex;
+    justify-content: space-between;
+}
+.section-box-4-2-1{
+    width: 362px;
+    height: 536px;
+    flex-shrink: 0;
+    /*border: 2px solid gray;*/
+    margin-top: 60px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
+}
+/*.section-box-4-2-2{*/
+/*    width: 362px;*/
+/*    height: 536px;*/
+/*    flex-shrink: 0;*/
+/*    !*border: 2px solid gray;*!*/
+/*    margin-top: 60px;*/
+/*    !*margin-left: 30px;*!*/
+
+/*}*/
+.section-4-2-text-1{
+    color: #000;
+
+    /* Heading / Base */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 41.6px */
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.section-4-2-text-2{
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    margin-top: 10px;
+    width: 302px;
+    margin-left: 30px;
+}
+.section-4-2-text-3{
+    color: #FF4B32;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+    margin-top: 20px;
+    margin-left: 35px;
 }
